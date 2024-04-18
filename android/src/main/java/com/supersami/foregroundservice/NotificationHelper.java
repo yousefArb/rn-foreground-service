@@ -141,11 +141,11 @@ class NotificationHelper {
        
 
         if(bundle.getBoolean("button", false) == true){
-            notificationBuilder.addAction(R.drawable.redbox_top_border_background, bundle.getString("buttonText", "Button"), pendingBtnIntent);
+            notificationBuilder.addAction(com.facebook.react.R.drawable.redbox_top_border_background, bundle.getString("buttonText", "Button"), pendingBtnIntent);
         }
 
         if(bundle.getBoolean("button2", false) == true){
-            notificationBuilder.addAction(R.drawable.redbox_top_border_background, bundle.getString("button2Text", "Button"), pendingBtn2Intent);
+            notificationBuilder.addAction(com.facebook.react.R.drawable.redbox_top_border_background, bundle.getString("button2Text", "Button"), pendingBtn2Intent);
         }
 
 
